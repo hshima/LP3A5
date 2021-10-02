@@ -1,3 +1,5 @@
+Código presente em: [link](https://github.com/hshima/LP3A5/tree/main/src/aula03)
+
 # Descrição do comportamento observado
 
 O código base não constrola o comportamento das threads se interrelacionam e aplica lock no laço. 
