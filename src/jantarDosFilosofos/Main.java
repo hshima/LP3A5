@@ -38,7 +38,8 @@ class Filosofo extends Thread {
 	public void run() {
 		System.out.println("ThreadName: " + Thread.currentThread().getName());
 		while(true) {
-			synchronized (lock) {
+			
+//			synchronized (lock) {
 				System.out.println("Lock: " + lock.toString());
 				try {
 					Thread.sleep(1l);
@@ -51,6 +52,6 @@ class Filosofo extends Thread {
 					System.out.println("tLock: " + fLock.toString());
 				}
 			}
-		}
+//		}
 	}
 }
